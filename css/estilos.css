@@ -1,0 +1,111 @@
+*{margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif} 
+body{background-color: #01141B;}
+nav{height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+background-color: #01141B;
+border-bottom: solid white 3px;}
+ul{display: flex;
+width: 400px;}
+li{list-style: none;
+    margin-left: 10px;
+color: white;}
+a{text-decoration: none;
+color: white;}
+.landingPage{height:1080px;
+    background-image: url(../img/fotomessi.jpg);
+background-size: cover; 
+background-repeat: no-repeat;}
+.landingPageSpan{position: absolute;
+top: 800px;
+left: 650px;}
+.landingPageH1{color: #BFF205;
+font-size: 95px;
+margin-left: 20px;
+width: 800px;
+position: absolute;
+top: 450px;}
+.homeStats{display: flex;
+justify-content: space-around;
+background-color: #01141B;
+padding-top: 150px;}
+.homeStatsImg{height: 150px;}
+.homeStatsH2{color: white;
+text-align: center;
+margin-top: 5px;}
+.HomeStatsNumbers{color: white;
+font-size: 50px;
+text-align: center;}
+.textoRegularUno{width: 600px;
+color: white;
+margin-top: 20px;
+margin-left: 40px;}
+.textoRegularDos{width: 600px;
+color: white;
+margin-top: 10px;
+margin-left: 40px;
+margin-bottom: 50px;}
+footer{display: flex;
+justify-content: flex-end;
+border-top: solid white 2px;}
+.footerImg{padding: 15px;
+height: 30px;
+width: 30px;}
+.nombre{color: white;}
+.mail{color: white;}
+.inputUno{width: 100px;}
+.inputDos{width: 315px;}
+form{display: inline-block;
+margin: 50px;}
+.galeria{display: flex;
+flex-wrap: wrap;}
+.imgUno{width: 100vw;}
+.estadisticas{display: flex;
+color: white;
+font-size: 70px;
+font-weight: 800;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 30px;}
+.goles{background-color: #BFF205;
+color: #01141B;
+font-weight: 800;
+width: 672px;
+margin-left: 20px;
+padding-left: 20px;}
+.asistencias{background-color: #BFF205;
+color: #01141B;
+font-weight: 800;
+width: 268px;
+margin-left: 20px;
+padding-left: 20px;}
+ .partidos{background-color: #BFF205;
+color: #01141B;
+font-weight: 800;
+width: 778px;
+margin-left: 20px;
+padding-left: 20px;}
+.titulos{background-color: #BFF205;
+color: #01141B;
+font-weight: 800;
+width: 100px;
+margin-left: 20px;
+padding-left: 20px;}
+.premios{background-color: #BFF205;
+color: #01141B;
+font-weight: 800;
+width: 120px;
+margin-left: 20px;
+padding-left: 20px;}
+.historiaH1{color: #BFF205;
+font-size: 95px;
+margin-left: 120px;
+margin-top: 80px;
+margin-bottom: 80px;
+width: 800px;}
+h2{color: #BFF205;
+margin-left: 40px;
+margin-top: 60px;}
